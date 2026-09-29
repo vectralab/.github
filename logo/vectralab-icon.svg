@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Dark Space -->
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <!-- Left Wing (Deep Electric Cyan -> Cobalt) -->
+    <linearGradient id="leftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="60%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+
+    <!-- Right Wing (High-Luminance Lavender -> Electric Indigo) -->
+    <linearGradient id="rightGrad" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD"/>
+      <stop offset="40%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Canvas Base (Matches GitHub's 50% border-radius avatar) -->
+  
+
+  <!-- High-Impact Supersonic "V" Monogram -->
+  <!-- Bold, wide arms, razor-sharp optical center -->
+  <g id="vectra-mark">
+    <!-- Left Wing (Anchor Blade) -->
+    <path d="M 120 152 
+             L 196 120 
+             L 256 260 
+             L 256 384 
+             L 252 384 
+             Z" 
+          fill="url(#leftGrad)"/>
+
+    <!-- Right Wing (Illuminated Facet, meeting at centerline) -->
+    <path d="M 392 152 
+             L 316 120 
+             L 256 260 
+             L 256 384 
+             L 260 384 
+             Z" 
+          fill="url(#rightGrad)"/>
+  </g>
+</svg>

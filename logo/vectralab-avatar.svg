@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <linearGradient id="leftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="60%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+
+    <linearGradient id="rightGrad" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD"/>
+      <stop offset="40%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+
+    <!-- Contrast Ring for GitHub Dark & Light Modes -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Canvas Base -->
+  <circle cx="256" cy="256" r="255" fill="url(#bgGrad)"/>
+  <circle cx="256" cy="256" r="253.5" fill="none" stroke="url(#ringGrad)" stroke-width="3"/>
+
+  <!-- High-Impact Supersonic "V" Monogram -->
+  <g id="vectra-mark">
+    <!-- Left Wing (Cyan to Cobalt) -->
+    <path d="M 120 152 
+             L 196 120 
+             L 256 260 
+             L 256 384 
+             L 252 384 
+             Z" 
+          fill="url(#leftGrad)"/>
+
+    <!-- Right Wing (Lavender to Indigo) -->
+    <path d="M 392 152 
+             L 316 120 
+             L 256 260 
+             L 256 384 
+             L 260 384 
+             Z" 
+          fill="url(#rightGrad)"/>
+  </g>
+</svg>
