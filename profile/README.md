@@ -37,6 +37,3 @@ VectraLab designs, builds, and maintains robust web applications, distributed ba
 - **Maintainer**: [@leuthra](https://github.com/leuthra)
 - **Website**: [romi.my.id](https://romi.my.id)
 - **Inquiries**: Reach out via GitHub issues or email listed on maintainer profile.
-1. Buat public repo baru bernama `.github` di dalam organisasi `vectralab`.
-2. Letakkan file ini di path `profile/README.md` (atau langsung `README.md` di root repo `.github`).
-3. GitHub akan otomatis menampilkan konten ini di halaman depan organisasi.
